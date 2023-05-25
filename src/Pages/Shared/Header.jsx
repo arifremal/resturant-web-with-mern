@@ -1,12 +1,18 @@
+import { Link } from "react-router-dom";
+
 const Header = () => {
   const nav = (
     <>
       <li>
-        <a>Submenu 1</a>
+        <Link to={'/'}>Home</Link>
       </li>
       <li>
-        <a>Submenu 2</a>
+        <Link to={'menu'}>Our menu</Link>
       </li>
+      <li>
+        <Link to={'order'}>Order</Link>
+      </li>
+      
      
     </>
   );
