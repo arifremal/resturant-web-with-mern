@@ -10,7 +10,10 @@ const Header = () => {
         <Link to={'menu'}>Our menu</Link>
       </li>
       <li>
-        <Link to={'order'}>Order</Link>
+        <Link to={'order/salad'}>Order</Link>
+      </li>
+      <li>
+        <Link to={'login'}>Login</Link>
       </li>
       
      
