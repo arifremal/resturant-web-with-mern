@@ -6,3 +6,9 @@
   font-family: 'Poppins', sans-serif;
 
 }
+.drawer-side a.active{
+  color: gray;
+}
+.drawer-side a{
+  background-color: transparent;
+}

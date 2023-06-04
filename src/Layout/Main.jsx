@@ -4,7 +4,7 @@ import Header from "../Pages/Shared/Header";
 
 const Main = () => {
   const location =useLocation()
-  const noHeaderFooter = location.pathname.includes('login')
+  const noHeaderFooter = location.pathname.includes('login') || location.pathname.includes('signup')
   return <div>
     { noHeaderFooter || <Header></Header>}
     <Outlet></Outlet>
